@@ -1,7 +1,12 @@
+:root {
+    --nav-size: 2.5rem;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 html {
@@ -12,11 +17,60 @@ body {
     font-size: 1.6rem;
 }
 
-.tipoDeUsuario {
+img {
+    width: 100%;
+}
+
+/* -----------comienzo del header y el nav -----------*/
+
+.tipoDeUsuario {  /*nav ---- menu del nav */ 
    display: none;
 }
 
 header {
     background-color: brown;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont_logoYmenu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont_logoYmenu a{
+    width: 150px;
+}
+
+.menu {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(41, 39, 39);
+}
+
+nav div {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: var(--nav-size);
+    width: 100vw;
+}
+
+a{
+    margin: 3px 0px;  /* en vez de margin pooner borde arriba y abajo */
+    background-color: white;
+}
+
+@media (min-width: 600px) {
+    .menu {
+        display: none;
+    }
+
+    .tipoDeUsuario {  /*nav ---- menu del nav */ 
+        
+     }
 }
 
