@@ -23,12 +23,8 @@ img {
 
 /* -----------comienzo del header y el nav -----------*/
 
-.tipoDeUsuario {  /*nav ---- menu del nav */ 
-   display: none;
-}
-
 header {
-    background-color: brown;
+    background-color: rgb(174, 209, 160);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -50,12 +46,22 @@ header {
     background-color: rgb(41, 39, 39);
 }
 
-nav div {
+
+/*------nav------*/
+
+nav {
+    font-size: var(--nav-size);
+}
+
+.nav_uno {  /*nav ---- menu del nav */ 
+    display: none;
+ }
+
+.nav_dos {
     background-color: blue;
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: var(--nav-size);
     width: 100vw;
 }
 
@@ -65,12 +71,34 @@ a{
 }
 
 @media (min-width: 600px) {
+
+    .cont_logoYmenu {
+        justify-content: start;
+        margin: 5px 0px;
+        margin-left: 30px;
+    }
+
     .menu {
         display: none;
     }
 
-    .tipoDeUsuario {  /*nav ---- menu del nav */ 
-        
+    .nav_uno {  /*nav ---- menu del nav */ 
+        display: flex;
+        justify-content: space-evenly;
+        order: 1;
      }
+
+     .cont_logoYmenu {
+
+        order: 2;
+    }
+
+    .nav_dos{
+        flex-direction: row;
+        justify-content: space-evenly;
+        order: 3;
+    }
+
+
 }
 
