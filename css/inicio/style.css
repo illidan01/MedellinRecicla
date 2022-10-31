@@ -24,7 +24,7 @@ img {
 /* -----------comienzo del header y el nav -----------*/
 
 header {
-    background-color: rgb(174, 209, 160);
+    background-color: rgb(178, 211, 165);
     display: flex;
     justify-content: center;
     flex-direction: column;
