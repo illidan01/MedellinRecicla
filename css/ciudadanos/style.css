@@ -67,7 +67,7 @@ nav {
 }
 
 a{
-    margin: 3px 0px;  /* en vez de margin poner borde arriba y abajo */
+    margin: 3px 0px;  /* en vez de margin pooner borde arriba y abajo */
     background-color: white;
 }
 
@@ -131,4 +131,3 @@ main{
 
 
 }
-
