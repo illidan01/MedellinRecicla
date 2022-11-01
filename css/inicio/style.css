@@ -79,10 +79,26 @@ a{
 
 /*aqui comienza el main*/
 
-main{
-
+.contain{
+    width: 99vw;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
+.column,.primary-column{
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    padding: 10px;
+    font-size: 2rem;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 @media (min-width: 600px) {
@@ -120,6 +136,39 @@ main{
 
     /* --↑--fin del header y el nav---↑--*/
 
+    /* main contain
+
+    .contain{
+        width: 100vw;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .column{
+        min-width: 300px;
+        max-width: 20%;
+        padding: 10px;
+        font-size: 2rem;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column2{
+        max-width: 95%;
+    }
+    
+    .primary-column{
+        width: 700px;
+        max-width: 60%;
+    } */
+
+
+
 }
 
 @media (min-width: 800px) {
@@ -129,6 +178,71 @@ main{
         margin: 0 auto;
     }
 
+     /* main contain */
 
+    .contain{
+        width: 100vw;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .column{
+        min-width: 300px;
+        max-width: 40%;
+        font-size: 2rem;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column2{
+        min-width: 772px;
+        max-width: 918px;
+    }
+    
+    .primary-column{
+        width: 800px;
+        
+    }
+
+}
+
+@media (min-width: 1000px){
+
+    /* main contain */
+
+    .contain{
+        width: 100vw;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .column{
+        min-width: 300px;
+        max-width: 20%;
+        padding: 10px;
+        font-size: 2rem;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column2{
+        min-width: none;
+        max-width: none;
+    }
+
+    .primary-column{
+        width: 700px;
+        max-width: 60%;
+    }
 }
 
