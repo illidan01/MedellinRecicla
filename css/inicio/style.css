@@ -1,5 +1,5 @@
 :root {
-    --nav-size: 2.5rem;
+    --nav-font_size: 2.5rem;
 }
 
 * {
@@ -34,6 +34,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 .cont_logoYmenu a{
@@ -50,7 +51,7 @@ header {
 /*------nav------*/
 
 nav {
-    font-size: var(--nav-size);
+    font-size: var(--nav-font_size);
 }
 
 .nav_uno {  /*nav ---- menu del nav */ 
@@ -70,6 +71,14 @@ a{
     background-color: white;
 }
 
+
+
+/*aqui comienza el main*/
+
+main{
+
+}
+
 @media (min-width: 600px) {
 
     .cont_logoYmenu {
@@ -81,17 +90,17 @@ a{
     .menu {
         display: none;
     }
-
+    
     .nav_uno {  /*nav ---- menu del nav */ 
         display: flex;
         justify-content: space-evenly;
         order: 1;
-     }
-
-     .cont_logoYmenu {
-
-        order: 2;
     }
+    
+    .cont_logoYmenu {
+
+       order: 2;
+   }
 
     .nav_dos{
         flex-direction: row;
@@ -100,5 +109,7 @@ a{
     }
 
 
+
+    
 }
 
