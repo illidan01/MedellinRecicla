@@ -1,0 +1,68 @@
+  /*tablets*/
+
+    /*---↓---header----↓----*/
+
+    /* ---↓---nav-----↓----*/
+    .cont_logoYmenu {
+        justify-content: start;
+        margin: 5px 0px;
+        margin-left: 30px;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .nav_uno {  /*nav ---- menu del nav */ 
+        display: flex;
+        justify-content: space-evenly;
+        order: 1;
+    }
+    
+    .cont_logoYmenu {
+
+       order: 2;
+   }
+
+    .nav_dos{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        order: 3;
+    }
+
+    /* --↑--fin del header y el nav---↑--*/
+
+    /* main contain
+
+    .contain{
+        width: 100vw;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .column{
+        min-width: 300px;
+        max-width: 20%;
+        padding: 10px;
+        font-size: 2rem;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column2{
+        max-width: 95%;
+    }
+    
+    .primary-column{
+        width: 700px;
+        max-width: 60%;
+    } */
+
+
+

@@ -1,0 +1,43 @@
+  /*computadores*/
+
+    header, .nav_dos, main, footer {
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+
+
+    .contenido1 {
+        display: flex;
+    }
+
+    
+
+     /* main contain */
+
+    /* .contain{
+        width: 100vw;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .column{
+        min-width: 300px;
+        max-width: 40%;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column2{
+        min-width: 772px;
+        max-width: 918px;
+    }
+    
+    .primary-column{
+        width: 800px;
+        
+    } */
