@@ -4,14 +4,15 @@
     --max-width-main: 1350px;
   }
 
-    header, .nav_dos, footer {
+    nav, .cont_logoYmenu, .contenido1, footer {
         max-width: 1350px;
         margin: 0 auto;
     }
 
+   
+
     .sec1 {
-        width: 100%;
-        background-color: aliceblue;
+        background-color: rgb(247, 246, 243);
     }
 
     .contenido1 {
@@ -19,7 +20,6 @@
         align-items: center;
         margin: 0px auto;
         padding-top: 40px;
-        max-width: var(--max-width-main);
     }
 
     

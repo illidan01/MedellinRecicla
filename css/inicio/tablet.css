@@ -31,38 +31,28 @@
         order: 3;
     }
 
+    section {
+        width: 100vw;
+    }
+
+    .header_sec1 {
+     order: 2;
+    }
+
+    .header_sec2 {
+     order: 1;   
+     background-color: blue;
+    }
+
+    .header_sec3 {
+     order: 3;
+     background-color: blue;
+    }
+
     /* --↑--fin del header y el nav---↑--*/
 
     /* main contain
 
-    .contain{
-        width: 100vw;
-        padding: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    
-    .column{
-        min-width: 300px;
-        max-width: 20%;
-        padding: 10px;
-        font-size: 2rem;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .column2{
-        max-width: 95%;
-    }
-    
-    .primary-column{
-        width: 700px;
-        max-width: 60%;
-    } */
 
 
 

@@ -60,7 +60,6 @@ nav {
  }
 
 .nav_dos {
-    background-color: blue;
     display: flex;
     flex-direction: column;
     text-align: center;
