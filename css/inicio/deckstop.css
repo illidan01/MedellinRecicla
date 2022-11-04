@@ -1,43 +1,45 @@
   /*computadores*/
 
-    header, .nav_dos, main, footer {
+  :root {
+    --max-width-main: 1350px;
+  }
+
+    header, .nav_dos, footer {
         max-width: 1350px;
         margin: 0 auto;
     }
 
+    .sec1 {
+        width: 100%;
+        background-color: aliceblue;
+    }
 
     .contenido1 {
         display: flex;
-    }
-
-    
-
-     /* main contain */
-
-    /* .contain{
-        width: 100vw;
-        padding: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    
-    .column{
-        min-width: 300px;
-        max-width: 40%;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        display: flex;
-        flex-direction: column;
         align-items: center;
+        margin: 0px auto;
+        padding-top: 40px;
+        max-width: var(--max-width-main);
     }
 
-    .column2{
-        min-width: 772px;
-        max-width: 918px;
-    }
     
-    .primary-column{
-        width: 800px;
-        
-    } */
+    .contenido1_item1 {
+        width: 550px;
+        height: 100%;
+    }
+
+    .contenido1_item2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px 25px;
+    }
+
+    .contenido1_item2 img {
+        margin-top: 20px;
+        width: auto;
+        height: 400px;
+        border: 1px solid black;
+    
+    }
