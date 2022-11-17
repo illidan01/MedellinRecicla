@@ -79,25 +79,6 @@ a{
 
 /*aqui comienza el main*/
 
-.contain{
-    width: 99vw;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.column,.primary-column{
-    width: 95%;
-    min-width: 95%;
-    max-width: 95%;
-    padding: 10px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .contenido1 {
     width: 100%;
@@ -127,7 +108,6 @@ a{
 
 .contenido1_item2 img {
     margin: 5px 0px;
-    background-color: red;
     width: 100%;
     border: 1px solid black;
 
