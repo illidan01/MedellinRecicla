@@ -94,7 +94,6 @@ a{
 }
 
 .sec1_itemTargeta{
-    background-color: #5D8300;
     margin: 10px auto;
     width: 95%;
     padding: 15px 25px;
@@ -108,13 +107,17 @@ a{
     margin-top: 20px;
 }
 
+.targeta1 {
+    border: solid 1px black;
+}
+
 /* -- - - - - - item 1  - - - -- - - -- */
 
 
 
 /* -- - - - - - item 2  - - - -- - - -- */
 .sec1_item2 {
-    background-color: #5D8300;
+    background-color: #93b53d;
     margin: 10px auto;
     width: 95%;
     border-radius: 10px;
@@ -128,6 +131,17 @@ a{
     background-color: antiquewhite;
 }
 
+.botones_izquierdo a{
+   
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+}
+
+.botones_izquierdo a:hover{
+   
+    box-shadow: 0px 0px 5px rgb(51, 51, 51);
+    border-radius: 5px;
+}
 /* menu y animacion */
 
 footer {
@@ -161,7 +175,7 @@ footer a {
         text-align: center;
         margin: 0 15px;
         margin-top: 20px;
-        border: 1px solid black; /* arreglar !!!!!!!!!  🚧  !!!!!!🚧!!!!!!!🚧!!!!! */
+         /* arreglar !!!!!!!!!  🚧  !!!!!!🚧!!!!!!!🚧!!!!! */
     }
 }
 
@@ -180,10 +194,15 @@ footer a {
     .targeta1{
         width: 400px;
         height: 100%;
+        background-color: #79aa00;
     }
 
     .sec1_item2 {
         width: 95%;
+    }
+
+    .prueba{
+        padding: 0px;
     }
 
    

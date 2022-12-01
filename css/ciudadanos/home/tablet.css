@@ -60,3 +60,37 @@
     /* --↑--fin del header y el nav---↑--*/
 
     /* main contain
+
+    /* - - - - - - - comienzo del main - - - -- - - - -  */
+
+/* - - -- - - - - -section 1 - - - - - - -*/
+
+   .sec1_cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+   .sec1_item1{
+    width: 580px;
+}
+
+/* - - -- - - - - -section 1 - -  - - -- - - - - -*/
+
+
+/* - - -- - - - - -section 2 - - -  - - -- - - - -*/
+
+.sec2_item{
+    width: 580px;
+}
+
+.sec2_item p{
+    margin-top: 30px;
+}
+
+/* - - -- - - - - -section 2 - - -  - -- - - - - -*/
+
+
+
+/* - - - - - - - fin del main - - - -- -  - - -- - - -  */
