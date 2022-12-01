@@ -128,7 +128,12 @@ color: #79aa00;
 .contenido1_item2 iframe {
     margin: 5px 0px;
     width: 100%;
+    height: 300px;
     border: 1px solid black;
+}
+
+.nav-item a{
+    width: 100%;
 }
 
 
