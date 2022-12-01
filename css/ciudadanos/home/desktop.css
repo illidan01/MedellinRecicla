@@ -1,7 +1,7 @@
   /*computadores de escritorio*/
 
 
-  nav, .cont_logoYmenu, .contenido1, footer {
+  nav, .cont_logoYmenu, .contenido1 {
     max-width: 1350px;
     margin: 0 auto;
 }
