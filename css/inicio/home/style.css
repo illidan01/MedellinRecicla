@@ -96,14 +96,14 @@ color: #79aa00;
 /*aqui comienza el main*/
 
 .sec1 {
-    background-image: url(../../img/index/fondo_inicio640.jpg);
+    background-image: url(../../../img/index/fondo_inicio640.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    height: 800px;
 }
 
 .contenido1 {
     width: 100%;
-    margin-top: 10px;
 }
 
 .contenido1_item1{
