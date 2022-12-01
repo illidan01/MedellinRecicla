@@ -117,7 +117,7 @@ button:hover span:nth-child(4) {
         margin: 0px 25px;
     }
 
-    .contenido1_item2 img {
+    .contenido1_item2 iframe {
         margin-top: 20px;
         width: auto;
         height: 400px;

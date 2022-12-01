@@ -53,7 +53,6 @@ button{
 .menu {
     width: 50px;
     height: 50px;
-    background-color: rgb(41, 39, 39);
 }
 
 /*------nav------*/
@@ -80,9 +79,8 @@ a{
 }
 
 .inicio {
-
     color: #c4f252;
-
+    text-decoration: none;
 }
 
 /* menu y animacion */
@@ -127,13 +125,12 @@ color: #79aa00;
     width: 90%;
 }
 
-.contenido1_item2 img {
+.contenido1_item2 iframe {
     margin: 5px 0px;
-    background-color: red;
     width: 100%;
     border: 1px solid black;
-
 }
+
 
 
 
