@@ -38,10 +38,7 @@
         order: 3;
     }
 
-    section {
-        width: 100vw;
-        padding-top: 10px;
-    }
+   
 
     .header_sec1 {
      order: 2;
@@ -58,6 +55,16 @@
      background-color: #c4f252;
     }
 
+    .sec2 {
+        background-color: white;
+    }
+
+    .itemm2 {
+        margin-top: 25px;
+    }
+
     /* --↑--fin del header y el nav---↑--*/
 
-    /* main contain
+    /* main contain*/
+
+    

@@ -83,6 +83,7 @@ a{
     text-decoration: none;
 }
 
+
 /* menu y animacion */
 .menus{
 
@@ -94,11 +95,12 @@ color: #79aa00;
 /*aqui comienza el main*/
 
 .sec1 {
-    background-image: url(../../../img/index/fondo_inicio640.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 800px;
-    padding-top: 20px;
+    background-color: #f8f9fa;
+}
+
+main section {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .contenido1 {
@@ -158,8 +160,27 @@ color: #79aa00;
     width: 100%;
 }
 
+.sec2 .contenido1_item1{
+    border: none;
+}
+
+.sec2 {
+    background-color: white;
+}
+
+.sec2 span{
+    height: 100px;
+}
+
+.sec2 img{
+    width: 100px;
+}
 
 
+footer {
+    background-color: #5D8300;
+    height: 120px;
+}
 
 
 
