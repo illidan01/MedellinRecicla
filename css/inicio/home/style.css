@@ -98,6 +98,7 @@ color: #79aa00;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 800px;
+    padding-top: 20px;
 }
 
 .contenido1 {
@@ -109,14 +110,35 @@ color: #79aa00;
     width: 90%;
     margin: 0 auto;
     border: 1px solid black;
-    padding: 5px 5px;
+    padding: 0px 0px;
+    border-radius: 5px;
+    padding-bottom: 15px;
 }
 
-.contenido1 p ~ div{
+.contenido1_item1 div{
+    padding: 0px 5px;
+}
+
+.contenido1 p ~ a{
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 3px solid #c4f252;
+    background-color: #27a46a;
+    padding: 5px 0px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.contenido1 p ~ a:hover{
+    box-shadow: 0px 0px 5px black;
+}
+
+
+
+.contenido1 p{
+ margin-top: 15px;
 }
 
 .contenido1_item2 {
