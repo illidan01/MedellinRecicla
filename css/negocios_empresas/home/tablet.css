@@ -57,6 +57,20 @@
      margin-bottom: 5px;
     }
 
+    .botones_izquierdo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec1_itemTargeta a{
+        text-align: center;
+        margin: 0 15px;
+        margin-top: 20px;
+         /* arreglar !!!!!!!!!  🚧  !!!!!!🚧!!!!!!!🚧!!!!! */
+    }
+
     /* --↑--fin del header y el nav---↑--*/
 
-    /* main contain
+    /* main contain*/
+
+    

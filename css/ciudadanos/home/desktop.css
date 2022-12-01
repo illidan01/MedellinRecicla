@@ -93,3 +93,56 @@ transition: .5s;
 p{
   text-align: center;
 }
+
+
+
+
+    /* - - - - - - - comienzo del main - - - -- - - - -  */
+
+/* - - -- - - - - -section 1 - - - - - - -*/
+
+.sec1 {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.sec1_item1{
+width: 100%;
+max-width: 500px;
+margin-left: 5px;
+margin-right: 5px;
+height: 176px;
+}
+
+.sec1_item1 p{
+font-size: 23px;
+margin: 17px;
+margin-bottom: 15px;
+}
+
+.cont_logoYmenu a{
+margin-left: 20px;
+}
+
+.targeta1 {
+padding: 0px;
+}
+
+
+
+/* - - -- - - - - -section 1 - -  - - -- - - - - -*/
+
+
+/* - - -- - - - - -section 2 - - -  - - -- - - - -*/
+
+.sec2 {
+padding-top: 55px;
+padding-bottom: 55px;
+}
+
+
+/* - - -- - - - - -section 2 - - -  - -- - - - - -*/
+
+
+
+/* - - - - - - - fin del main - - - -- -  - - -- - - -  */

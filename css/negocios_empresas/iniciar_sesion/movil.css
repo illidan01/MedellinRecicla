@@ -152,48 +152,6 @@ input {
 /*main*/
 
 
-@media (min-width: 600px) {  
 
-    .sec1 {
-        padding-top: 30px;
-        display: flex;
-       
-    }
-
-.sec1_cont {
-    flex-direction: row;
-    justify-content: space-between;
-    width: auto;
-    
-    border-radius: 10px;
-    
-}
-
-.sec1_cont a{
-    border-radius: 5px;
-}
-
-.sec1_cont a:hover{
-    background-color: #699202;
-    color: white;
-    
-}
-
-
-.submit_cont {
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 25px;
-}
-
-.submit_cont input {
-    padding: 5px;
-    height: 40px;
-    width: 40%;
-}
-
-
-
-}
 
 
