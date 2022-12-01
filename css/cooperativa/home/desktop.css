@@ -106,9 +106,10 @@ nav, .cont_logoYmenu, .contenido1 {
    }
 
    .sec1_item1 {
-    width: 300px;
+    width: 400px;
     height: 100%;
     margin-bottom: 250px;
+    border: 1px solid black;
    }
 
    .sec1_item2 {

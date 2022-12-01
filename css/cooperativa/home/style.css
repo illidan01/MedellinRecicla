@@ -51,11 +51,6 @@ button{
     width: 150px;
 }
 
-.menu {
-    width: 50px;
-    height: 50px;
-    background-color: rgb(41, 39, 39);
-}
 
 /*------nav------*/
 
@@ -97,7 +92,7 @@ color: #79aa00;
 
 main {
     width: 100%;
-    background-color: #c4f252;
+    background-color: #f8f9fa;
 }
 
 /* -- - - - - - - seccion 1  - - - -- - - -- - */
@@ -109,7 +104,6 @@ main {
 }
 
 .sec1_item1{
-    background-color: #5D8300;
     margin: 10px auto;
     width: 95%;
     padding: 15px 25px;
@@ -128,7 +122,7 @@ main {
 
 /* -- - - - - - item 2  - - - -- - - -- */
 .sec1_item2 {
-    background-color: #5D8300;
+    background-color: #8eb824;
     margin: 10px auto;
     width: 95%;
     border-radius: 10px;
